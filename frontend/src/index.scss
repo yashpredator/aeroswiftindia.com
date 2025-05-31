@@ -1,11 +1,30 @@
-// Plugin CSS
+// // Plugin CSS
+// @import "bootstrap/dist/css/bootstrap.min.css";
+// @import './assets/slick-theme.css';
+// @import './assets/slick-theme.scss';
+// @import "animate.css";
+// @import "slick-carousel/slick/slick.css";
+// @import "slick-carousel/slick/slick-theme.css";
+// @import "node_modules/react-modal-video/scss/modal-video.scss";
+
+// // Init main SCSS File
+// @import "/public/assets/scss/style.scss";
+
+
 @import "bootstrap/dist/css/bootstrap.min.css";
-@import './assets/slick-theme.css';
-@import './assets/slick-theme.scss';
 @import "animate.css";
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
+// @import "slick-carousel/slick/slick.css";
+// ✅ Don't import CSS inside SCSS – move below to JS file:
+// @import "slick-carousel/slick/slick-theme.css";
+
 @import "node_modules/react-modal-video/scss/modal-video.scss";
+
+// ✅ If you've copied and customized slick-theme.scss (no @charset inside), keep this:
+@import './assets/slick-theme.scss';
+
+// ✅ Only if it doesn't include @charset
+// @import './assets/slick-theme.css'; (optional)
 
 // Init main SCSS File
 @import "/public/assets/scss/style.scss";
+

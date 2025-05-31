@@ -1,0 +1,30 @@
+diff --git a/node_modules/slick-carousel/slick/slick-theme.css b/node_modules/slick-carousel/slick/slick-theme.css
+index 1232fca..de86b21 100644
+--- a/node_modules/slick-carousel/slick/slick-theme.css
++++ b/node_modules/slick-carousel/slick/slick-theme.css
+@@ -1,4 +1,4 @@
+-@charset 'UTF-8';
++/* @charset 'UTF-8'; */
+ /* Slider */
+ .slick-loading .slick-list
+ {
+diff --git a/node_modules/slick-carousel/slick/slick-theme.less b/node_modules/slick-carousel/slick/slick-theme.less
+index e06fc18..8c5f2dd 100644
+--- a/node_modules/slick-carousel/slick/slick-theme.less
++++ b/node_modules/slick-carousel/slick/slick-theme.less
+@@ -1,4 +1,4 @@
+-@charset "UTF-8";
++// @charset "UTF-8";
+ 
+ // Default Variables
+ 
+diff --git a/node_modules/slick-carousel/slick/slick-theme.scss b/node_modules/slick-carousel/slick/slick-theme.scss
+index 7fe63e1..e7f2736 100644
+--- a/node_modules/slick-carousel/slick/slick-theme.scss
++++ b/node_modules/slick-carousel/slick/slick-theme.scss
+@@ -1,4 +1,4 @@
+-@charset "UTF-8";
++// @charset "UTF-8";
+ 
+ // Default Variables
+ 

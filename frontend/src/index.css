@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Team slider styles */
+.single-team-wrap {
+  transition: all 0.3s ease;
+  padding: 1rem;
+  text-align: center;
+}
+
+.single-team-wrap:hover {
+  transform: translateY(-5px);
+}
+
+.single-team-wrap .thumb img {
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.single-team-wrap .details {
+  margin-top: 1rem;
+}
+
+.single-team-wrap .details h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.single-team-wrap .details p {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .single-team-wrap {
+    padding: 0.5rem;
+  }
+  
+  .single-team-wrap .details h5 {
+    font-size: 1rem;
+  }
+  
+  .single-team-wrap .details p {
+    font-size: 0.75rem;
+  }
+}
+
+
